@@ -15,7 +15,7 @@ use solana_program::{
     sysvar::{rent::Rent, Sysvar},
 };
 
-solana_program::declare_id!("2zBRw2sEXvjskx7w1w9hqdFEMZWy7KipQ6jKPfwjpnL6");
+solana_program::declare_id!("EQHNzM6dHW4erWdtFQv9VzZGsJzg89iKznF8NAZk38ef");
 
 const AIRDROP_IMAGE_ID: &str = "800d6ba99bc80c911ef3fb45e60c520fb14fe88d704455e3e775d66356e1c15a";
 
