@@ -1,6 +1,6 @@
 {
   "name": "airdrop",
-  "binaryPath": "./target/riscv-guest/riscv32im-risc0-zkvm-elf/docker/airdrop/airdrop",
+  "binaryPath": "./zk-programs/airdrop/target/riscv-guest/riscv32im-risc0-zkvm-elf/docker/airdrop/airdrop",
   "imageId": "800d6ba99bc80c911ef3fb45e60c520fb14fe88d704455e3e775d66356e1c15a",
   "inputOrder": [
     "Public"
