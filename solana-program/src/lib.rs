@@ -17,7 +17,7 @@ use solana_program::{
 
 solana_program::declare_id!("2zBRw2sEXvjskx7w1w9hqdFEMZWy7KipQ6jKPfwjpnL6");
 
-const AIRDROP_IMAGE_ID: &str = "5881e972d41fe651c2989c65699528da8b1ed68ab7057350a686b8a64a00fc91";
+const AIRDROP_IMAGE_ID: &str = "800d6ba99bc80c911ef3fb45e60c520fb14fe88d704455e3e775d66356e1c15a";
 
 #[derive(BorshSerialize, BorshDeserialize, Debug, Clone)]
 pub struct AirdropTree {
