@@ -1,4 +1,4 @@
-use airdrop_core::{AirdropClaim, AirdropProof, BatchAirdropInput, BatchAirdropOutput};
+use airdrop_core::{BatchAirdropInput, BatchAirdropOutput};
 use bonsol_interface::instructions::{execute_v1, CallbackConfig, ExecutionConfig, InputRef};
 use borsh::{BorshDeserialize, BorshSerialize};
 use solana_program::entrypoint;
