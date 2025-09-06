@@ -1,0 +1,19 @@
+# Build artifacts
+target/
+
+# Node.js dependencies
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug files
+*.pdb
+
+# Cargo lock for libraries
+Cargo.lock
