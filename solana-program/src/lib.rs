@@ -257,6 +257,7 @@ fn callback(
         result.total_amount
     );
 
+    msg!("At this point we would distribute the tokens to the recipients");
     // TODO: Implement actual token transfers to recipients
     // This would require:
     // 1. Token program account passed in accounts
