@@ -1,0 +1,20 @@
+[package]
+name = "bonsol-airdrop-program"
+version = "0.1.0"
+edition = "2021"
+description = "Batch Airdrop Program"
+
+[workspace]
+
+[dependencies]
+solana-program = "2.0.25"
+borsh = { version = "0.10.3" }
+bonsol-interface = { git = "https://github.com/bonsol-collective/bonsol.git", default-features = false, features = ["on-chain"] }
+airdrop-core = { git = "https://github.com/andyjsbell/airdrop-core", features = ["borsh"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+default = []
+no-entrypoint = []
