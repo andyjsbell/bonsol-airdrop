@@ -1,0 +1,9 @@
+[workspace]
+members = ["zkprogram", "solana-program"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.70"
+
+[workspace.dependencies]

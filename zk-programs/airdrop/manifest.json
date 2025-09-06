@@ -1,0 +1,10 @@
+{
+  "name": "airdrop",
+  "binaryPath": "./target/riscv-guest/riscv32im-risc0-zkvm-elf/docker/airdrop/airdrop",
+  "imageId": "800d6ba99bc80c911ef3fb45e60c520fb14fe88d704455e3e775d66356e1c15a",
+  "inputOrder": [
+    "Public"
+  ],
+  "signature": "4wW6C7hWkvBUpBMVuzRLNe4zW7aPNQwmS6AXjctssyeqipHsKNM4AzzwhwNiLTE2X7W9iKyJWRY3MGkNYwXzoHQJ",
+  "size": 212156
+}
